@@ -54,9 +54,9 @@ class App(tk.Tk):
         img = ImageOps.invert(img)
         
         # Display the resized image for verification
-        # plt.imshow(img, cmap='gray')
-        # plt.title("Resized Image")
-        # plt.show()
+        plt.imshow(img, cmap='gray')
+        plt.title("Resized Image")
+        plt.show()
 
         img = np.array(img).reshape(1, -1)
         
